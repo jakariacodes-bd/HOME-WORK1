@@ -505,8 +505,10 @@ body {
 
 .tool .tool3 .tool4 div img,
 .tool5 div img {
-    width: 234px;
-    height: 210px;
+    max-width: 400px;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
 }
 
 .tool .tool3 .tool4 div h3,
@@ -786,6 +788,7 @@ body {
     color: #009dff;
     background-color: #ffffff;
 }
+
 /*section8 end*/
 
 /*section9 start*/
@@ -793,6 +796,7 @@ footer {
     width: 100%;
     height: 500px;
 }
+
 footer .foot {
     width: 100%;
     height: 440px;
@@ -801,39 +805,47 @@ footer .foot {
     justify-content: center;
     align-items: center;
 }
+
 footer .foot .foot1 img {
     width: 100px;
     height: 100px;
 }
+
 footer .foot .foot1 p {
     width: 300px;
     line-height: 25px;
     color: #f5fbff;
     opacity: 0.5;
 }
+
 footer .foot .foot1 i {
     margin-right: 5px;
     font-size: 30px;
     color: #f5fbff;
     opacity: 0.5;
 }
+
 footer .foot .foot1 i:hover {
     color: #52acfe;
 }
+
 footer .foot .foot2 {
     margin-right: 10px;
 }
+
 footer .foot .foot2 h3 {
     font-size: 18px;
     color: #f5fbff;
     opacity: 0.8;
 }
+
 footer .foot .foot2 a {
     text-decoration: none;
     line-height: 33px;
     color: #f5fbff;
     opacity: 0.5;
 }
+
 footer .foot .foot2 a:hover {
     color: #009dff;
 }
@@ -841,23 +853,28 @@ footer .foot .foot2 a:hover {
 footer .foot .foot2 {
     margin-right: 50px;
 }
+
 footer .foot .foot3 {
     margin-right: 50px;
 }
+
 footer .foot .foot4 {
     margin-right: 50px;
 }
+
 footer .foot .foot3 h3 {
     font-size: 18px;
     color: #f5fbff;
     opacity: 0.8;
 }
+
 footer .foot .foot3 a {
     text-decoration: none;
     line-height: 33px;
     color: #f5fbff;
     opacity: 0.5;
 }
+
 footer .foot .foot3 a:hover {
     color: #009dff;
 }
@@ -865,21 +882,25 @@ footer .foot .foot3 a:hover {
 footer .foot .foot4 {
     margin-right: 10px;
 }
+
 footer .foot .foot4 h3 {
     margin-bottom: 84px;
     font-size: 18px;
     color: #f5fbff;
     opacity: 0.8;
 }
+
 footer .foot .foot4 a {
     text-decoration: none;
     line-height: 33px;
     color: #f5fbff;
     opacity: 0.5;
 }
+
 footer .foot .foot4 a:hover {
     color: #009dff;
 }
+
 footer .toof {
     width: 100%;
     height: 60px;
@@ -889,7 +910,9 @@ footer .toof {
     margin: 0 auto;
     padding-top: 1px;
 }
+
 footer .toof i {
     font-size: 30px;
 }
+
 /*section9 end* {
