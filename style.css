@@ -30,12 +30,12 @@ body {
 
 .navbar1 .icon1 {
     margin-left: 100px;
-    object-fit:cover;
+    object-fit: cover;
 }
 
 .navbar1 .icon2 {
     margin-left: 500px;
-    object-fit:cover;
+    object-fit: cover;
 }
 
 .navbar1 .icon1 ul li {
@@ -683,8 +683,10 @@ body {
 }
 
 .on .on3 .oo img {
-    width: 195px;
-    height: 230px;
+    max-width: 400px;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
 }
 
 .on .on3 .oo h4 {
