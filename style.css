@@ -30,10 +30,12 @@ body {
 
 .navbar1 .icon1 {
     margin-left: 100px;
+    object-fit:cover;
 }
 
 .navbar1 .icon2 {
     margin-left: 500px;
+    object-fit:cover;
 }
 
 .navbar1 .icon1 ul li {
